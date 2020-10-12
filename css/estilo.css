@@ -1,0 +1,30 @@
+#ie5menu 
+{
+  background-color: #555;
+  border: #000 solid 0px;
+  border-radius: 15px;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 13px;
+  padding: 4.5px;
+  position: absolute;
+  text-align: center;
+  width: auto;
+}
+
+.menuitems 
+{
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  padding: 4.5px;
+  text-align: left;
+  transition: all 0.3s;
+}
+
+.menuitems:hover 
+{
+  background-color: #ffffff;
+  color: black;
+}
